@@ -1,0 +1,173 @@
+.ShoppingCartSection {
+    position: relative;
+    width: 1110px;
+    /* height: 400px; */
+    margin: 0 auto;
+    margin-top: 29px;
+    margin-bottom: 29px;
+}
+
+.ShoppingTotal {
+    position: absolute;
+    top: 37.38px;
+    left: 760px;
+    background-color: white;
+    width: 350px;
+    height: 120px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px 0px #0000001A;
+
+}
+
+.spn1 {
+    position: absolute;
+    left: 21.43px;
+    top: 22px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18.29px;
+    text-align: left;
+    color: black;
+
+}
+
+.spn2 {
+    position: absolute;
+    left: 275.51px;
+    top: 21px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18.29px;
+    text-align: left;
+
+}
+
+.spn3 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.38px;
+    text-align: left;
+    height: 400px;
+}
+
+.ShoppingTotalButton {
+    position: absolute;
+    bottom: 0;
+    width: 348.98px;
+    height: 65px;
+    left: 0px;
+    background-color: black;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20.72px;
+    text-align: center;
+    color: white;
+    width: 348.98px;
+    border-radius: 20px;
+}
+
+.BuyCard {
+    width: 633px;
+    height: 218px;
+    position: relative;
+    background-color: white;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px 0px #0000001A;
+
+}
+
+.BuyCardImg{
+    position: absolute;
+    width: 146.53px;
+    height: 136px;
+    top: 18px;
+    left: 18.76px;
+}
+
+.BuyCardTitle {
+    position: absolute;
+    left: 188.73px;
+    top: 76px;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20.72px;
+    text-align: left;
+    color: #1C1C27;
+}
+
+.BuyCardPrice{
+    position: absolute;
+    left: 188.73px;
+    top: 109px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18.29px;
+    text-align: left;
+    color: #AAAAAA;
+}
+
+.BuyCardMinus{
+    position: absolute;
+    left: 33px;
+    top: 173px;
+}
+
+.BuyCardMinus:hover {
+    color: #ffe;
+    background-color: #5488af;
+}
+
+.BuyCardPlus{
+    position: absolute;
+    left: 121.21px;
+    top: 173px;
+}
+
+.BuyCardPlus:hover {
+    color: #ffe;
+    background-color: #5488af;
+}
+
+.BuyCardAmount {
+    position: absolute;
+    left: 88px;
+    top: 178px;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20.72px;
+    text-align: left;
+    color: black;
+}
+
+.BuyCardGarbage {
+    position: absolute;
+    left: 584.94px;
+    top: 18px;
+}
+
+.BuyCardGarbage:hover {
+    color: #ffe;
+    background-color: #5488af;
+}
+
+.BuyCardTotal {
+    position: absolute;
+    left: 544.06px;
+    top: 179px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18.29px;
+    text-align: right;
+    color: #1C1C27;
+
+}

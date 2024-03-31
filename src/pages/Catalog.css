@@ -1,0 +1,122 @@
+.Catalog {
+    margin: 20px auto;
+    width: 1110px;
+}
+
+.CatalogTypeName {
+    color: #838383;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.38px;
+    text-align: left;
+}
+
+.CatalogList {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    row-gap: 30.65px;
+}
+
+.ItemCard {
+    width: 350px;
+    height: 407px;
+    position: relative;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px 0px #0000001A;
+}
+
+.CardImage {
+    position: absolute;
+    top: 15px;
+    left: 66px;
+    height: 237px;
+    width: 220px;
+}
+
+.ItemCardFooter {
+    position: absolute;
+    top: 306px;
+    left: 22px;
+    width: 310px;
+    height: 74px;
+
+}
+
+.ItemTitle {
+    position: absolute;
+    top: 0px;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20.72px;
+    text-align: left;
+    color: #1C1C27;
+}
+
+.ItemPrice {
+    position: absolute;
+    top: 0px;
+    left: 248px;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20.72px;
+    text-align: left;
+    color: #FFA542;
+}
+
+.ItemOldPrice {
+    position: absolute;
+    top: 21.13px;
+    left: 256px;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15.85px;
+    text-align: left;
+    color: #FFCE7F;
+    text-decoration-line: line-through;
+}
+
+.ItemRate {
+    position: absolute;
+    top: 46px;
+
+}
+
+.ItemRateNumber {
+    position: absolute;
+    left: 33px;
+    top: 1px;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20.72px;
+    text-align: left;
+    color: #838383;
+}
+
+.BuyButon {
+    position: absolute;
+    left: 245px;
+    top: 50px;
+    border: none;
+    background-color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20.72px;
+    text-align: left;
+    color: #000000;
+}
+
+.BuyButon:hover {
+    color: #ffe;
+    background-color: #5488af;
+}
+
+
+
+
